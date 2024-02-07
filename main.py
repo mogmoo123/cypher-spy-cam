@@ -8,7 +8,7 @@ if filename == None:
     cap = cv2.VideoCapture(0)
 else:
     cap = cv2.VideoCapture(filename)
-img = cv2.imread("img\\camera.png",cv2.IMREAD_UNCHANGED)
+img = cv2.imread("img/camera.png",cv2.IMREAD_UNCHANGED)
 
 ##Harr Cascade Classifier
 
